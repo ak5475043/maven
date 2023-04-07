@@ -1,0 +1,16 @@
+version: 0.2
+
+phases:
+  pre_build:
+    commands:
+      - mvn clean
+  build:
+    commands:
+      - mvn install
+      - mvn package
+
+artifacts:
+  files:
+    - '**/*'
+  discard-paths: no
+  base-directory: maven-web-application.war
