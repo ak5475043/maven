@@ -13,4 +13,4 @@ artifacts:
   files:
     - '**/*'
   discard-paths: no
-  base-directory: maven-web-application-0.0.1-SNAPSHOT.war
+  base-directory: maven-web-application 0.0.1-SNAPSHOT.war
